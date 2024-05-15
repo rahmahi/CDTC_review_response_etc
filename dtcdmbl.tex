@@ -90,14 +90,25 @@
 			
 			\response{We thank the referee for the comment. We have considered the drive parameter ratio $\frac{4h}{\omega}$ at fixed to CDT/DL point (which we have chosen to be the first root of the Bessel function for our numerical simulations) which is 2.4048 and the point away from CDT/DL we considered to be 6.0 which is $\sim0.40$ value differ from its closest Bessel function root ($\mathcal{J}_4 =6.3802$). At this point DMBL as well as chimeralike state is unstable. This deviation $~0.40$ is a major deviation from any CDT/DL point. So our claim on instability of chimeralike order at minor deviation in earlier manuscript was incorrect. The minor deviation should be smaller than this regarding the scale of drive parameter ratio. 
 				
-			To investigate the stability of chimeralike order around the CDT/DL point we have introduced a minor deviation($\Delta_h$) in range between $\in[-0.15, 0.15]$ to the drive amplitude (h) which corresponds to the CDT/DL point at constant drive frequency $\omega = 20$. We also considered the spins are all up polarized initially and system size to be N=8. We numerically evolve the system for a few time cycles upto 20T and calculate the fidelity ($F_n$) which measures the closeness of the initial state of the system to the state at 20T.
+			To investigate the stability of chimeralike order around the CDT/DL point we have introduced a minor deviation($\Delta_h$) in range between $\in[-0.05, 0.05]$ to the drive amplitude (h) which corresponds to the CDT/DL point at constant drive frequency $\omega = 20$. We also considered the spins are all up polarized initially and system size to be N=8 and $\beta=0$. One can consider otherwise $\beta$'s; however that would necessitate larger system size which spans larger matrices in product space. We numerically evolve the system for a few time cycles upto 20T and calculate the fidelity ($F_n = \abs{\braket{\psi(0)}{\psi (20T)}}^2$) which measures the closeness of the initial state  to the state of the system at 20T. We have plotted $F_n$ for different $\frac{4\Delta_h}{\omega}$ in figure below. The minor deviation region is filled with gray color. 
+			\begin{figure}[h!]
+				\begin{center}
+					\includegraphics[width=10cm]{./figs/figure14.pdf}
+				\end{center}
+				\caption{Fidelity is plotted against several deviation values $\frac{4\Delta_h}{\omega}$ for different system size (N). The CDT/DL point is denoted by gray dashed line where $\frac{4\Delta_h}{\omega}=0$. Weak (a-panel) and strong (b-panel) is considered. The fidelity is found to be enough large around CDT/DL point (gray-colored region).}
+				\label{Fig:aroundCDT}
+			\end{figure}
+			We found that $F_n$ is sufficiently large ($>0.85$) around the CDT/DL point for both of the spin coupling strengths. We have revised the manuscript at section 4.4 by replacing the sentence ``...even if there is a minor devation..." with ``... at significant deviation..." at page no.20,line no. 403. Additionally we have discussed this issue at Appendix-C at page no.28. 
 			}
 		\end{enumerate}
-		\item The referee comments on, \comment{``\underline{DTC phase stability and entanglement entropy:}"}\\
+	
+		\item The referee comments on, \comment{``\underline{DTC phase stability and entanglement entropy:}"}
 		\begin{enumerate}
 			\item \comment{``The paper seems to be intended for an audience from DTC and MBL/DMBL fields. However, for broader accessibility and comprehension, a brief introductory paragraph about realization and fundamental aspects of DTC within DMBL
-				systems would be beneficial. How is DTC defined in these systems, and what are its fundamental properties? Additionally, how is $\omega$ chosen in relation to the
-				periodicity of the Hamiltonian? Moreover, a preliminary explanation of how analyzing the time evolution of local magnetization and its FFT contributes to defining DTC would greatly enhance reader comprehension."}
+			systems would be beneficial. How is DTC defined in these systems, and what are its fundamental properties? Additionally, how is $\omega$ chosen in relation to the periodicity of the Hamiltonian? Moreover, a preliminary explanation of how analyzing the time evolution of local magnetization and its FFT contributes to defining DTC would greatly enhance reader comprehension."}\\
+		
+			\response{
+			}
 			\item \comment{``It is important to clarify the results shown in Fig. 7, where the behavior of regional magnetization might confuse new readers in the DTC field. This figure suggests that regional magnetization decreases over time under strong coupling and all-to-all interactions, which at the first glance seems to contradict the main text’s assertion that these conditions correspond to stable chimera states. Therefore, a comment  explaining how the magnetization relates to FFT based on the results would be helpful for correctly understanding the results."}
 			\item \comment{``There appears to be inconsistency in the analysis of EE and regional magnetisation along with FFT. EE is shown for almost two times longer dynamics that regional magnetization and FFT. Could the authors provide a comparison of regional  magnetization and its FFT for the extended time frames considered for entanglement entropy?"}
 		\end{enumerate}
