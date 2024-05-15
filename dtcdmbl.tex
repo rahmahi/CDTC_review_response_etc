@@ -107,10 +107,28 @@
 			\item \comment{``The paper seems to be intended for an audience from DTC and MBL/DMBL fields. However, for broader accessibility and comprehension, a brief introductory paragraph about realization and fundamental aspects of DTC within DMBL
 			systems would be beneficial. How is DTC defined in these systems, and what are its fundamental properties? Additionally, how is $\omega$ chosen in relation to the periodicity of the Hamiltonian? Moreover, a preliminary explanation of how analyzing the time evolution of local magnetization and its FFT contributes to defining DTC would greatly enhance reader comprehension."}\\
 		
-			\response{
+			\response{ plan to write at the last ... 
 			}
-			\item \comment{``It is important to clarify the results shown in Fig. 7, where the behavior of regional magnetization might confuse new readers in the DTC field. This figure suggests that regional magnetization decreases over time under strong coupling and all-to-all interactions, which at the first glance seems to contradict the main text’s assertion that these conditions correspond to stable chimera states. Therefore, a comment  explaining how the magnetization relates to FFT based on the results would be helpful for correctly understanding the results."}
-			\item \comment{``There appears to be inconsistency in the analysis of EE and regional magnetisation along with FFT. EE is shown for almost two times longer dynamics that regional magnetization and FFT. Could the authors provide a comparison of regional  magnetization and its FFT for the extended time frames considered for entanglement entropy?"}
+			\item \comment{``It is important to clarify the results shown in Fig. 7, where the behavior of regional magnetization might confuse new readers in the DTC field. This figure suggests that regional magnetization decreases over time under strong coupling and all-to-all interactions, which at the first glance seems to contradict the main text’s assertion that these conditions correspond to stable chimera states. Therefore, a comment  explaining how the magnetization relates to FFT based on the results would be helpful for correctly understanding the results."}\\
+			
+			\response{
+			We thank the referee for the comment. In the figure the reginal magnetization for all-to-all interaction and strong coupling  decreases over time upto very large time 2000T in figure(9) in revised manuscript. In the earlier sections and results depicts that all-to-all interaction is the best suitable choice of spin interaction range for a stable chimeralike order and these results were based on finite large time upto 80T.
+			
+			In the FFT plot corresponding to the $M^z_A$ results are for very large time upto 2000T. The most dominant frequency is 0.5. However there are other frequencies exist in the FFT spectrum although their dominance (depends on second power of corresponding amplitude) is weaker than $\Omega/\omega=0.5$. For all-to-all interaction range, there is almost no significant frequency available expect at $\Omega/\omega=0.5$ for weak coupling. This manifests a stable chimera even at 2000T. However in case of strong coupling, other frequencies contributing larger FFT amplitudes affect the dynamics due to  $\Omega/\omega=0.5$. This contrasts the stability of chimeralike order in between  weak and strong coupling for the system of finite size N=8.
+			
+			\begin{figure}[h!]
+				\begin{center}
+					\includegraphics[width=10cm]{./figs/figure10.pdf}
+				\end{center}
+				\caption{}
+				\label{Fig:aroundCDT}
+			\end{figure}
+			}
+			We have elaborated our discussion on decrease in stability at strong coupling in the revised manuscript at page 17 and updated the FFT plot (figure 10 in revised manuscript) containing log-scale plot as inset figure and natural scale plot as the primary figure for better comprehension of the readers.
+			\item \comment{``There appears to be inconsistency in the analysis of EE and regional magnetisation along with FFT. EE is shown for almost two times longer dynamics that regional magnetization and FFT. Could the authors provide a comparison of regional  magnetization and its FFT for the extended time frames considered for entanglement entropy?"}\\
+			
+			\response{We thank the referee for pointing out the mistake. We have extended our numerical simulation for regional magnetization and corresponding FFT upto 2000T in order to keep consistency in analysis of EE and regional magnetization. We have updated figures(9) $\&$(10) in the revised manuscript.
+			}
 		\end{enumerate}
 		\item The referee comments on, \comment{``\underline{Applications of chimera state:} The introduction of Section 4 briefly touches upon applications of chimera states, but it lacks depth. How can the chimera state findings be applied in practice? Expanding on potential applications and providing references to existing literature will be beneficial. This would enrich the discussion and highlight the practical relevance of their findings."}
 	\end{enumerate}
