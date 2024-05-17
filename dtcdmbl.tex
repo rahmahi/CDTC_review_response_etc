@@ -1,37 +1,30 @@
-\documentclass[10pt,
-superscriptaddress,
-amsmath,amssymb,showkeys,
-aps, 
-prb,
-]{revtex4-2}
-\usepackage[T1]{fontenc}
+\documentclass[aps,prb,reprint,showpacs,floatfix,superscriptaddress, onecolumn, nofootinbib, 10pt]{revtex4-2}
+
+\usepackage{amsmath,amsthm,amssymb}
 \usepackage{graphicx}% Include figure files
-\usepackage{subcaption}
-
+\usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
-\usepackage{physics}
-\usepackage{todonotes}
-\usepackage{helvet}
 \usepackage{color}
-\renewcommand{\familydefault}{\sfdefault}
-
-\usepackage[a4paper, margin=0.5cm]{geometry}
-\usepackage[export]{adjustbox}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{mathrsfs}
 \usepackage{hyperref}
-\hypersetup{
-	colorlinks=true,
-	linkcolor=blue,
-	filecolor=magenta,      
-	urlcolor=cyan,
-	pdfpagemode=FullScreen,
-}
+\usepackage{cleveref}
+\usepackage{epstopdf}
+\usepackage{subfigure}
 \usepackage{autobreak}
+\usepackage{todonotes}
+\usepackage{physics}
 \usepackage{bbm}
 \usepackage[normalem]{ulem}
+\usepackage[margin=0.5cm]{geometry}
+
 \usepackage[absolute,overlay]{textpos}
 
 \newcommand{\response}[1]{{\color{black}#1}} % for authors' response
 \newcommand{\comment}[1]{{\color{blue}#1}} % for referee's comment
+
+\renewcommand{\baselinestretch}{1.2}
 
 
 \begin{document}
@@ -55,15 +48,15 @@ prb,
 				increase in system size?"}\\
 		
 		\response{
-			We appreciate the referee's comment. We have expanded our investigation on the establishment and maintenance of quantum chimeralike order for system sizes larger than N=8. The figure (9) displays the regional magnetization ($M^z_A$) plot, which demonstrates melting in the DTC phase. Additionally, there are beats observed at all types of spin interactions (as defined by $\beta$) and coupling strengths in the $M^z_A$ curves in region A. In order to comprehend the melting in DTC observation, we have taken into account sizes from smaller ones to larger ones, such as N = 4, 6, 8, 10 and computed the numerical values of $M^z_A$ at the DTC/DL point. The DTC/DL point corresponds to the first zero of the Bessel function $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$ of the driving parameters, amplitude$(h)$ and frequency $(\omega)$. We then got the associated Fast Fourier Transforms (FFT) for an extended time period of up to $8 \times 10^4$T.   \\		
+			We thank the referee for the comment. We have further expanded the investigation on the formation and stability of quantum chimera-like order for system sizes larger than N=8. The figure (9) of the revised manuscript shows the regional magnetization ($M^z_A$) plot, illustrating the occurrence of melting in the DTC phase. In region A, the $M^z_A$ curves show beats at various spin interactions and coupling strengths, regardless of the $\beta$ values. To better comprehend the melting in DTC through the beats in ($M^z_A$), we have considered a range of sizes, from smaller to larger ones, including N = 4, 6, 8, 10. We then calculated the numerical values of $M^z_A$ at the DTC/DL point. The DTC/DL point is determined by the first root of the Bessel function $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$, which depends on the driving parameters - amplitude $(h)$ and frequency $(\omega)$. Next, we obtained the corresponding Fast Fourier Transforms (FFT) for a prolonged duration of up to $8 \times 10^4$T to incorporate a full beat at minimum for each $\beta$. 		
 			
-			We have numerically calculated the beat frequency for each case of $\beta$'s from FFT data and spin coupling strengths (weak and strong) and plotted it in figure(12) in the revised manuscript. We've noticed that the frequency of beats decreases as the system size N increases. This demonstrates that the stability of the DTC-DMBL chimeralike order is enhanced as N rises, regardless of the chosen $\beta$ values and coupling strengths. As the number of particles, N, approaches infinity at the thermodynamic limit, the beat frequency disappears, indicating a state of chimeralike order that is entirely stable. We have updated the manuscript to include a part on page no. 19 titled "4.3. System size-dependent stability in chimeralike order," which describes how the stability of chimeralike order depends on the system size.
+			We have numerically calculated the beat frequency for each case of $\beta$'s from FFT($M^z_A$) data and spin coupling strengths (weak and strong) and plotted it in figure(12) in the revised manuscript. We've noticed that the frequency of beats ($\delta \Omega_B$) decreases as the system size N increases. This demonstrates that the stability of the DTC-DMBL chimera-like order enhances as N rises, regardless of the chosen $\beta$ values and coupling strengths. As the number of particles, N, approaches infinity at the thermodynamic limit, the beat frequency disappears, manifesting a DTC phase free from melting. This indicates a fully stable chimera-like order. We have updated the manuscript to include a part on page no. 19 titled, ``4.3. System size-dependent stability in chimera-like order," which describes how the stability of chimera-like order depends on the system size.
 			
 			\begin{figure}[h!]
 				\begin{center}
 					\includegraphics[width=10cm]{./figs/figure12.pdf}
 				\end{center}
-				\caption{FFT of regional magnetization $M^z_A$ at panels from top to bottom for $8\times10^4$T and spin interaction ranges ($\beta = 0,1.5,2.5, \infty[inf]$). The left and right panels show weak and strong spin coupling. With constant $\omega = 20$ and time period $T= 2\pi/\omega$, the drive parameters are at the CDT/DL point. Each panel's inset shows the beat frequency $\delta\Omega_B$ for various system sizes N.
+				\caption{FFT of regional magnetization $M^z_A$ for $8\times10^4$T and spin interaction ranges ($\beta = 0,1.5,2.5, \infty[inf]$) at panels from top to bottom. The left and right panels show weak and strong spin coupling. With constant $\omega = 20$ and time period $T= 2\pi/\omega$, the drive parameters are at the CDT/DL point. Each panel's inset shows the beat frequency ($\delta\Omega_B$) for various system sizes N.
 				}
 				\label{Fig:aroundCDT}
 			\end{figure}
@@ -73,42 +66,42 @@ prb,
 			impact of $\epsilon_A$={0.03,0.05,0.1} on the chimera states, leaving the role of $\epsilon_B$, set to 0.9, less discussed. How does varying $\epsilon_B$ impact the chimera
 			states?"}\\
 		
-		\response{We appreciate the referee's attention to the matter. We have explored the impact of different rotation errors, specifically $\epsilon_B$, with values of 0.6 and 0.8, while keeping $\epsilon_A$ constant at 0.03. In the revised manuscript, we have included a figure (7) that presents the numerical calculation of the local magnetization $\expval{\hat{S}^z}$ for various $\beta$ values and spin coupling strengths, taking into account the drive parameters at CDT/DL point. It has been observed that the DTC-DMBL order exhibits a lack of stability in course of time in all cases. The stability of the DMBL phase in region B decreases as $\epsilon_B$ increases. The stability of the DTC phase in region A is directly influenced by this. Moreover, we found that, for all-to-all interaction, the local magnetization in region A varies equally. However, for shorter ranges, $\expval{\hat{S}^z}$ decays quickly with a decrease in spin interaction ranges ($\beta >0$) and an increase in the relative distance from the junction between the regions A $\&$ B. We have provided a comprehensive discussion on the matter in section (3), specifically on page 12 to the end of the section.\\
+		\response{We appreciate the referee's interest in the issue. We extended our work to investigate the influence of various spin rotation errors, specifically $\epsilon_B$, considering values of 0.6 and 0.8 while maintaining $\epsilon_A$ constant at 0.03. In the revised manuscript, we have added a figure (7) on page 13 that showcases the numerical calculation of the local magnetization $\expval{\hat{S}^z}$ for different $\beta$ values and spin coupling strengths. This calculation takes into consideration the drive parameters at the CDT/DL point, which corresponds to the first root of the Bessel function $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$. It has been observed that the DTC-DMBL chimera-like order exhibits a lack of stability over time in all cases.  As $\epsilon_B$ increases, the stability of the DMBL phase in region B decreases. This directly influences the stability of the DTC phase in region A. We also observed that the local magnetization of the spins in region A varies identically for all-to-all interactions. However, for shorter ranges, $\expval{\hat{S}^z}$ decays quickly with a decrease in spin interaction ranges ($\beta >0$) and an increase in the relative distance from the junction between the regions A and B. We have provided a comprehensive discussion on the matter in Section (3), page 11, para 1 to the end of the section.\\
 			
-		To gain a genreal comprehensive understanding of the stability of the DTC-DMBL chimeralike order, we conducted further research using a wide range of values for $\epsilon_A$ and $\epsilon_B$. We then estimated the regional magnetization $M^z_A$ and $M^z_B$ at the CDT/DL point for certain values of $\beta$ and coupling strengths. The $M^z_{A,B}$ values have been plotted in figure 8 on page 15. We note that the primary factors influencing the stability and selection of DTC and DMBL phases within regions are $\epsilon_A$ and $\epsilon_B$. The DTC-DMBL chimera is most stable when $\epsilon_A$ approaches 0 and $\epsilon_B$ approaches 1.0, representing extreme opposite conditions. When the value of $\epsilon_B$ is less than 0.9 and $\epsilon_A$ is kept constant at 0.03, we see that both regions experience melting of the DTC phase as $\epsilon_B$ decreases gradually. This observation is shown in panels a, b, c, and d. We have also conducted investigations on scenarios where $\epsilon_A\sim\epsilon_B$, and we have observed that these cases do not display the DTC-DMBL chimeralike order. Remarkably, when we hold $\epsilon_B$ constant at 0.1 and increment $\epsilon_A$, we witness an occurrence of DMBL in region A and DTC in region B in the extreme scenario where $\epsilon_A$ is set to 0.1 and $\epsilon_B$ is set to 0.9. We have incorporated this discussion in the revised manuscript in section '4.1. Regional Magnetization' on page 14.
-		
-		
+		To obtain a comprehensive understanding of the stability of the DTC-DMBL chimera-like order, we conducted additional investigations, exploring a wide range of values for $\epsilon_A$ and $\epsilon_B$. Next, we calculated the regional magnetization $M^z_A$ and $M^z_B$ at the CDT/DL point for specific values of $\beta$ and coupling strengths. The $M^z_{A,B}$ values are displayed in figure 8 on page 15. It is worth mentioning that the stability and selection of DTC and DMBL phases within regions are primarily influenced by $\epsilon_A$ and $\epsilon_B$. The stability of the DTC-DMBL chimera is highest when $\epsilon_A$ approaches 0 and $\epsilon_B$ approaches 1.0, indicating extreme opposite conditions. When the values of $\epsilon_B$ are less than 0.9 and $\epsilon_A$ is maintained at a constant value of 0.03, it can be observed that both regions undergo a gradual decrease into melting DTC phase. This observation is illustrated in panels a, b, c, and d in figure 8. Additionally, we have investigated the circumstances when $\epsilon_A\sim\epsilon_B$, and found that there is no DTC-DMBL chimera-like order in these cases. Remarkably, when we hold $\epsilon_B$ constant at 0.1 and increment $\epsilon_A$, we witness a gradual occurrence of DMBL in region A and DTC phase in region B, in the extreme scenario where $\epsilon_A$ is set to 0.1 and $\epsilon_B$ is set to 0.9. We have incorporated this discussion in the revised manuscript in section '4.1. Regional Magnetization' on page 14.		
 		}
+	
 		\item The referee comments on, \comment{``\underline{Higher root of Bessel function and stability of chimera states:}"}\\
 		\begin{enumerate}
 			\item \comment{``The paper introduces a higher root of the Bessel function without explicitly justifying its significance. The importance of this higher root and its relevance to the stability
 				of chimera states need clarification. How does the selection of a higher root impact the system's behavior, and why is it crucial for the observed dynamics?"}\\
 			
-			\response{We thank the referee to point out the mistake. To obtain DMBL in $T_2$ cycle, the drive parameters should be considered in a manner that the ratio $\frac{4h}{\omega}$ is one of the roots of Bessel function $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$ which is denoted as `CDT/DL point' as discussed in Appendix-A. There is no restriction on selection over the root of the Bessel function regarding CDT/DL point. We have corrected this issue by defining `CDT/DL point' corresponding to the first root of $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$ at page no,\ref{Put the page number line number etc.} and maintained it through out in the manuscript and updated all the figures in revised manuscript with no change in results with comparison to the earlier manuscript. 
-			}
+			\response{We appreciate the referee for bringing the mistake to our attention. In order to achieve DMBL in the $T_2$ cycle, it is important to carefully consider the drive parameters. Specifically, the ratio of the drive parameter ($h,\omega$) should be one of the roots of the Bessel function $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$. This particular point, known as the CDT/DL point, is discussed in detail in Appendix-A. In our numerical simulations, we have chosen the first root of a specific function as the CDT/DL point. There are no limitations when it comes to selecting the root of the Bessel function in relation to the CDT/DL point. In order to maintain consistency and clarity in the content, we have established the term 'CDT/DL point' as the initial root of $\mathcal{J}_0\left(\frac{4h}{\omega}\right)$ on page 6, after equation 7, the last sentence of the page. This definition has been consistently used throughout the revised manuscript. We have also made updates to all the figures in the revised manuscript, and the results remain unchanged from the earlier version.
+		}
 		
 			\item \comment{``Moreover, the statement “The stability of the chimera order diminishes even if there is a minor deviation from the CDT/DL point” (page 15, lines 43-44) implies that chimera states might not be stable under slight deviations from the CDT/DL point. This raises a critical question regarding the practical implementation of creating chimera states in experiments. To address this, it would be valuable for the paper to explore potential techniques or strategies aimed at stabilizing the DMBL part of the chain. Elaborating on practical considerations and potential solutions would enhance the paper's applicability and contribute to a more comprehensive understanding of the proposed model."}\\
 			
-			\response{We thank the referee for the comment. We have considered the drive parameter ratio $\frac{4h}{\omega}$ at fixed to CDT/DL point (which we have chosen to be the first root of the Bessel function for our numerical simulations) which is 2.4048 and the point away from CDT/DL we considered to be 6.0 which is $\sim0.40$ value differ from its closest Bessel function root ($\mathcal{J}_4 =6.3802$). At this point DMBL as well as chimeralike state is unstable. This deviation $~0.40$ is a major deviation from any CDT/DL point. So our claim on instability of chimeralike order at minor deviation in earlier manuscript was incorrect. The minor deviation should be smaller than this regarding the scale of drive parameter ratio. \\
+			\response{We appreciate the comment made by the referee. In our analysis, we examined the drive parameter ratio $\frac{4h}{\omega}$ at a specific point, which we selected as the first root of the Bessel function for our numerical simulations. This value is 2.4048. Furthermore, we considered moving a point away from this specific root, which we set at 6.0. This value differs by approximately 0.40 from the closest Bessel function root ($\mathcal{J}_4 =6.3802$). At away from the CDT/Dl point, DMBL as well as chimera-like order is unstable. This deviation of approximately 0.40 is a significant departure from any CDT/DL point in terms of the scale of the drive parameter ratio. It appears that our previous manuscript was incorrect in asserting the instability of chimeralike order at a minor deviation. The minor deviation should be less than $~0.40$. \\
 				
-			To investigate the stability of chimeralike order around the CDT/DL point we have introduced a minor deviation($\Delta_h$) in range between $\in[-0.05, 0.05]$ to the drive amplitude (h) which corresponds to the CDT/DL point at constant drive frequency $\omega = 20$. We also considered the spins are all up polarized initially and system size to be N=8 and $\beta=0$. One can consider otherwise $\beta$'s; however that would necessitate larger system size which spans larger matrices in product space. We numerically evolve the system for a few time cycles upto 20T and calculate the fidelity ($F_n = \abs{\braket{\psi(0)}{\psi (20T)}}^2$) which measures the closeness of the initial state  to the state of the system at 20T. We have plotted $F_n$ for different $\frac{4\Delta_h}{\omega}$ in figure below. The minor deviation region is filled with gray color. 
+			To look into how stable the chimeralike order is around the CDT/DL point, we added a small deviation ($\Delta_h$) to drive amplitude $h$ so that it causes a relative deviation in the range of $\in[-0.05, 0.05]$ on the $\frac{4h}{\omega}$ scale. The amplitude (h) corresponds to the CDT/DL point at a constant drive frequency of $\omega = 20$. We also considered the spins to be all up polarized initially and the system size to be N = 8 and $\beta=0$. One can consider otherwise $\beta$'s; this would require a larger system size that encompasses larger matrices in product space. We numerically evolve the system for a finite number of time cycles up to 100T and calculate the fidelity ($F_n = \abs{\braket{\psi(0)}{\psi (20T)}}^2$) which measures the closeness of the initial state to the state of the system at 100T. We have plotted $F_n$ for different $\frac{4\Delta_h}{\omega}$ in the figure below. Gray shading indicates the area of minor variation. The point at which $\frac{4\Delta_h}{\omega} = 0$ corresponds to the CDT/DL point with no deviation. 
 			\begin{figure}[h!]
 				\begin{center}
 					\includegraphics[width=10cm]{./figs/figure14.pdf}
 				\end{center}
-				\caption{Fidelity is plotted against several deviation values $\frac{4\Delta_h}{\omega}$ for different system size (N) for around CDT/DL point(top a,b-panels) and at away from CDT/DL point(bottom c,d-panels). The drive frequency is considered a constant $\omega 20$ value and the deviation in amplitude ($\Delta_h$) is added to h. Weak (a,c -panel) and strong (b,d-panel) are considered. The fidelity is found to be enough large around CDT/DL point (gray-colored region) in the top panels for both of the weak and strong coupling.}
+				\caption{Fidelity is plotted against several deviation values $\frac{4\Delta_h}{\omega}$ for different system sizes (N) at 100T around the CDT/DL point (top a,b-panels) and away from the CDT/DL point (bottom c,d-panels). Considering a constant drive frequency of $\omega= 20$, the amplitude deviation ($\Delta_h$) is added to h. Weak (a,c-panel) and strong (b,d-panel) are considered. The fidelity is found to be large around the CDT/DL point (gray-colored region) in the top panels for both the weak and strong couplings.}
 				\label{Fig:aroundCDT}
 			\end{figure}
-			We found that $F_n$ is sufficiently large ($>0.85$) around the CDT/DL point for both of the spin coupling strengths. We have revised the manuscript at section 4.4 by replacing the sentence ``...even if there is a minor devation..." with ``... at significant deviation..." at page no.20,line no. 403. Additionally we have discussed this issue at Appendix-C at page no.28. 
+		
+			For both spin coupling strengths, we observed that $F_n$ is significantly high ($>0.85$) near the CDT/DL point. We have made revisions to the manuscript in section 4.4 on page 20. In addition, we have addressed this matter in Appendix-C on page 29. 
 			}
 		\end{enumerate}
-	
+		
 		\item The referee comments on, \comment{``\underline{DTC phase stability and entanglement entropy:}"}
 		\begin{enumerate}
 			\item \comment{``The paper seems to be intended for an audience from DTC and MBL/DMBL fields. However, for broader accessibility and comprehension, a brief introductory paragraph about realization and fundamental aspects of DTC within DMBL
 			systems would be beneficial. How is DTC defined in these systems, and what are its fundamental properties? Additionally, how is $\omega$ chosen in relation to the periodicity of the Hamiltonian? Moreover, a preliminary explanation of how analyzing the time evolution of local magnetization and its FFT contributes to defining DTC would greatly enhance reader comprehension."}\\
 		
-			\response{ plan to write at the last ... 
+			\response{ write \dots \todo{ \tiny start reviewing from here \dots}
 			}
 			\item \comment{``It is important to clarify the results shown in Fig. 7, where the behavior of regional magnetization might confuse new readers in the DTC field. This figure suggests that regional magnetization decreases over time under strong coupling and all-to-all interactions, which at the first glance seems to contradict the main text’s assertion that these conditions correspond to stable chimera states. Therefore, a comment  explaining how the magnetization relates to FFT based on the results would be helpful for correctly understanding the results."}\\
 			
