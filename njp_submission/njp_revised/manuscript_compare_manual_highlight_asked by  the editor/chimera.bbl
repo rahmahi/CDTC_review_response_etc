@@ -1,0 +1,416 @@
+\providecommand{\newblock}{}
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
+
+\bibitem{kuramoto_coexistence_2002}
+Kuramoto Y and Battogtokh D 2002 {\em Nonlinear Phenomena in Complex Systems\/}
+  {\bf 5} 380--385
+  \urlprefix\url{http://www.j-npcs.org/abstracts/vol2002/v5no4/v5no4p380.html}
+
+\bibitem{panaggio_chimera_2015}
+J~Panaggio M and M~Abrams D 2015 {\em Nonlinearity\/} {\bf 28} R67
+
+\bibitem{chimera:strogatz}
+Abrams D~M and Strogatz S~H 2004 {\em Phys. Rev. Lett.\/} {\bf 93}(17) 174102
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.93.174102}
+
+\bibitem{parastesh_chimeras_2021}
+Parastesh F, Jafari S, Azarnoush H, Shahriari Z, Wang Z, Boccaletti S and Perc
+  M 2021 {\em Physics Reports\/} {\bf 898} 1--114
+
+\bibitem{chimera_book}
+Zakharova A 2020 {\em Chimera Patterns in Networks\/} Understanding Complex
+  Systems (Springer Cham) ISBN 1860-0840
+
+\bibitem{taniya2022}
+{Khatun, Taniya}, {Bandyopadhyay, Biswabibek} and {Banerjee, Tanmoy} 2022 {\em
+  Eur. Phys. J. Plus\/} {\bf 137} 879
+  \urlprefix\url{https://doi.org/10.1140/epjp/s13360-022-03097-5}
+
+\bibitem{Kotwal2017}
+Kotwal T, Jiang X and Abrams D~M 2017 {\em Phys. Rev. Lett.\/} {\bf 119}(26)
+  264101
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.119.264101}
+
+\bibitem{Aneta2013}
+Koseska A, Volkov E and Kurths J 2013 {\em Phys. Rev. Lett.\/} {\bf 111}(2)
+  024103
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.024103}
+
+\bibitem{Rattenborg2000}
+NC R, CJ A and SL L 2000 {\em Neuroscience and Biobehavioral Reviews\/} {\bf
+  24} 817--842 ISSN 0149-7634
+
+\bibitem{Rattenborg2006}
+Rattenborg N~C 2006 {\em Naturwissenschaften\/} {\bf 93} 413--425
+  \urlprefix\url{https://doi.org/10.1007/s00114-006-0120-3}
+
+\bibitem{Rattenborg2016}
+Rattenborg N~C, Voirin B, Cruz S~M, Tisdale R, Dell'Omo G, Lipp H~P, Wikelski M
+  and Vyssotski A~L 2016 {\em Nature Communications\/} {\bf 7} 12468 ISSN
+  2041-1723 \urlprefix\url{https://doi.org/10.1038/ncomms12468}
+
+\bibitem{Deng_2024}
+Deng S and Ódor G 2024 {\em Chaos: An Interdisciplinary Journal of Nonlinear
+  Science\/} {\bf 34} ISSN 1089-7682
+
+\bibitem{Motter2013}
+Motter A~E, Myers S~A, Anghel M and Nishikawa T 2013 {\em Nature Physics\/}
+  {\bf 9} 191--197 ISSN 1745-2481
+  \urlprefix\url{https://doi.org/10.1038/nphys2535}
+
+\bibitem{bastidas_quantum_2015}
+Bastidas V~M, Omelchenko I, Zakharova A, Sch\"oll E and Brandes T 2015 {\em
+  Phys. Rev. E\/} {\bf 92}(6) 062924
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.92.062924}
+
+\bibitem{Bastidas2018}
+Bastidas V~M, Renoust B, Nemoto K and Munro W~J 2018 {\em Phys. Rev. B\/} {\bf
+  98}(22) 224307
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.98.224307}
+
+\bibitem{Zha2020}
+Zha C, Bastidas V~M, Gong M, Wu Y, Rong H, Yang R, Ye Y, Li S, Zhu Q, Wang S,
+  Zhao Y, Liang F, Lin J, Xu Y, Peng C~Z, Schmiedmayer J, Nemoto K, Deng H,
+  Munro W~J, Zhu X and Pan J~W 2020 {\em Phys. Rev. Lett.\/} {\bf 125}(17)
+  170503
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.125.170503}
+
+\bibitem{sakurai_phys_nodate}
+Sakurai A, Bastidas V~M, Munro W~J and Nemoto K 2021 {\em Phys. Rev. Lett.\/}
+  {\bf 126}(12) 120606
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.126.120606}
+
+\bibitem{singh_chimera_2011}
+Singh R, Dasgupta S and Sinha S 2011 {\em Europhysics Letters\/} {\bf 95} 10004
+
+\bibitem{else_floquet_2016}
+Else D~V, Bauer B and Nayak C 2016 {\em Phys. Rev. Lett.\/} {\bf 117}(9) 090402
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.117.090402}
+
+\bibitem{wilczek_quantum_2012}
+Wilczek F 2012 {\em Phys. Rev. Lett.\/} {\bf 109}(16) 160401
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.109.160401}
+
+\bibitem{Bruno_comment_1}
+Bruno P 2013 {\em Phys. Rev. Lett.\/} {\bf 110}(11) 118901
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.110.118901}
+
+\bibitem{Bruno2013}
+Bruno P 2013 {\em Phys. Rev. Lett.\/} {\bf 111}(7) 070402
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.111.070402}
+
+\bibitem{watanabe_absence_2015}
+Watanabe H and Oshikawa M 2015 {\em Phys. Rev. Lett.\/} {\bf 114}(25) 251603
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.114.251603}
+
+\bibitem{huang2018}
+Huang B, Wu Y~H and Liu W~V 2018 {\em Phys. Rev. Lett.\/} {\bf 120}(11) 110603
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.120.110603}
+
+\bibitem{taheri_all-optical_2022}
+Taheri H, Matsko A~B, Maleki L and Sacha K 2022 {\em Nat Commun\/} {\bf 13} 848
+  \urlprefix\url{https://doi.org/10.1038/s41467-022-28462-x}
+
+\bibitem{Soham2018}
+Pal S, Nishad N, Mahesh T~S and Sreejith G~J 2018 {\em Phys. Rev. Lett.\/} {\bf
+  120}(18) 180602
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.120.180602}
+
+\bibitem{zhang_observation_2017}
+Zhang J, Hess P~W, Kyprianidis A, Becker P, Lee A, Smith J, Pagano G,
+  Potirniche I~D, Potter A~C, Vishwanath A, Yao N~Y and Monroe C 2017 {\em
+  Nature\/} {\bf 543} 217--220
+
+\bibitem{yao_time_2018}
+Yao N~Y and Nayak C 2018 {\em Physics Today\/} {\bf 71} 40--47 ISSN 0031-9228
+
+\bibitem{frey_realization_2022}
+Frey P and Rachel S 2022 {\em Science Advances\/} {\bf 8} eabm7652
+  \urlprefix\url{https://www.science.org/doi/abs/10.1126/sciadv.abm7652}
+
+\bibitem{rovny_observation_2018}
+Rovny J, Blum R~L and Barrett S~E 2018 {\em Phys. Rev. Lett.\/} {\bf 120}(18)
+  180603
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.120.180603}
+
+\bibitem{sacha_time_nodate}
+Sacha K 2012 {\em Time Crystals\/} (Springer)
+
+\bibitem{golletz_basis_2022}
+Golletz W, Czarnecki A, Sacha K and Kuroś A 2022 {\em New J. Phys.\/} {\bf 24}
+  093002
+
+\bibitem{Stasiuk2023}
+Stasiuk A and Cappellaro P 2023 {\em Phys. Rev. X\/} {\bf 13}(4) 041016
+
+\bibitem{Hans2021}
+Ke\ss{}ler H, Kongkhambut P, Georges C, Mathey L, Cosme J~G and Hemmerich A
+  2021 {\em Phys. Rev. Lett.\/} {\bf 127}(4) 043602
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.127.043602}
+
+\bibitem{jiao2024}
+Jiao Y, Jiang W, Zhang Y, Bai J, He Y, Shen H, Zhao J and Jia S 2024
+  Observation of a time crystal comb in a driven-dissipative system with
+  rydberg gas (\textit{Preprint} \eprint{2402.13112})
+
+\bibitem{solanki2024}
+Solanki P, Krishna M, Hajdušek M, Bruder C and Vinjanampathy S 2024 Exotic
+  synchronization in continuous time crystals outside the symmetric subspace
+  (\textit{Preprint} \eprint{2401.00675})
+
+\bibitem{Sakurai_Napolitano_2020}
+Sakurai J~J and Napolitano J 2020 {\em Modern Quantum Mechanics\/} 3rd ed
+  (Cambridge University Press)
+
+\bibitem{LeBlanc_2013}
+LeBlanc L~J, Beeler M~C, Jiménez-García K, Perry A~R, Sugawa S, Williams R~A
+  and Spielman I~B 2013 {\em New Journal of Physics\/} {\bf 15} 073011
+  \urlprefix\url{https://dx.doi.org/10.1088/1367-2630/15/7/073011}
+
+\bibitem{Biao2018}
+Huang B, Wu Y~H and Liu W~V 2018 {\em Phys. Rev. Lett.\/} {\bf 120}(11) 110603
+
+\bibitem{russomanno_floquet_2017}
+Russomanno A, Iemini F, Dalmonte M and Fazio R 2017 {\em Phys. Rev. B\/} {\bf
+  95}(21) 214307
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.95.214307}
+
+\bibitem{Mori_2018}
+Mori T, Ikeda T~N, Kaminishi E and Ueda M 2018 {\em Journal of Physics B:
+  Atomic, Molecular and Optical Physics\/} {\bf 51} 112001
+
+\bibitem{Kim_2014}
+Kim H, Ikeda T~N and Huse D~A 2014 {\em Phys. Rev. E\/} {\bf 90}(5) 052105
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevE.90.052105}
+
+\bibitem{Mizuta_2020}
+Mizuta K, Takasan K and Kawakami N 2020 {\em Phys. Rev. Res.\/} {\bf 2}(3)
+  033284
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevResearch.2.033284}
+
+\bibitem{Mori_2023_1}
+Mori T 2023 {\em Annual Review of Condensed Matter Physics\/} {\bf 14} 35--56
+
+\bibitem{choi_observation_2017}
+Choi S, Choi J, Landig R, Kucsko G, Zhou H, Isoya J, Jelezko F, Onoda S, Sumiya
+  H, Khemani V, von Keyserlingk C, Yao N~Y, Demler E and Lukin M~D 2017 {\em
+  Nature\/} {\bf 543} 221--225
+
+\bibitem{Khemani2016}
+Khemani V, Lazarides A, Moessner R and Sondhi S~L 2016 {\em Phys. Rev. Lett.\/}
+  {\bf 116}(25) 250401
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.116.250401}
+
+\bibitem{else_discrete_2020}
+Else D~V, Monroe C, Nayak C and Yao N~Y 2020 {\em Annual Review of Condensed
+  Matter Physics\/} {\bf 11} 467--499 ISSN 1947-5454, 1947-5462 publisher:
+  Annual Reviews
+
+\bibitem{alet_many-body_2018}
+Alet F and Laflorencie N 2018 {\em Comptes Rendus Physique\/} {\bf 19} 498--525
+
+\bibitem{smith_many-body_2016}
+Smith J, Lee A, Richerme P, Neyenhuis B, Hess P~W, Hauke P, Heyl M, Huse D~A
+  and Monroe C 2016 {\em Nature Physics\/} {\bf 12} 907--911
+
+\bibitem{nguyen_signature_2021}
+Nguyen T, Andrejevic N, Po H~C, Song Q, Tsurimaki Y, Drucker N~C, Alatas A, Alp
+  E~E, Leu B~M, Cunsolo A, Cai Y~Q, Wu L, Garlow J~A, Zhu Y, Lu H, Gossard A~C,
+  Puretzky A~A, Geohegan D~B, Huang S and Li M 2021 {\em Nano Letters\/} {\bf
+  21} 7419--7425
+
+\bibitem{Keser2016}
+Keser A~C, Ganeshan S, Refael G and Galitski V 2016 {\em Phys. Rev. B\/} {\bf
+  94}(8) 085120
+
+\bibitem{haldar_dynamical_2017}
+Haldar A and Das A 2017 {\em Annalen der Physik\/} {\bf 529} 1600333
+
+\bibitem{haldar_dynamical_2021}
+Haldar A, Sen D, Moessner R and Das A 2021 {\em Phys. Rev. X\/} {\bf 11}(2)
+  021008 \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevX.11.021008}
+
+\bibitem{bhattacharyya_transverse_2012}
+Bhattacharyya S, Das A and Dasgupta S 2012 {\em Phys. Rev. B\/} {\bf 86}(5)
+  054410 \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.86.054410}
+
+\bibitem{aditya2023dynamical}
+Aditya S and Sen D 2023 {\em SciPost Phys. Core\/} {\bf 6} 083
+  \urlprefix\url{https://scipost.org/10.21468/SciPostPhysCore.6.4.083}
+
+\bibitem{dutta2014}
+Nag T, Roy S, Dutta A and Sen D 2014 {\em Phys. Rev. B\/} {\bf 89}(16) 165425
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.89.165425}
+
+\bibitem{das_exotic_2010}
+Das A 2010 {\em Phys. Rev. B\/} {\bf 82}(17) 172402
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.82.172402}
+
+\bibitem{Grossmann1991}
+Grossmann F, Dittrich T, Jung P and H\"anggi P 1991 {\em Phys. Rev. Lett.\/}
+  {\bf 67}(4) 516--519
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.67.516}
+
+\bibitem{Kayanuma2008}
+Kayanuma Y and Saito K 2008 {\em Phys. Rev. A\/} {\bf 77}(1) 010101
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.77.010101}
+
+\bibitem{Jyoti2021}
+Sharma J, Tiwari I, Das D and Parmananda P 2021 {\em Phys. Rev. E\/} {\bf
+  103}(1) 012214
+
+\bibitem{nkomo_chimera_2016}
+Nkomo S, Tinsley M~R and Showalter K 2016 {\em Chaos: An Interdisciplinary
+  Journal of Nonlinear Science\/} {\bf 26} 094826 ISSN 1054-1500
+
+\bibitem{buyskikh_entanglement_2016}
+Buyskikh A~S, Fagotti M, Schachenmayer J, Essler F and Daley A~J 2016 {\em
+  Phys. Rev. A\/} {\bf 93}(5) 053620
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevA.93.053620}
+
+\bibitem{Cirac_1995}
+Cirac J~I and Zoller P 1995 {\em Phys. Rev. Lett.\/} {\bf 74}(20) 4091--4094
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.74.4091}
+
+\bibitem{Blatt_2012}
+Blatt R and Roos C~F 2012 {\em Nature Physics\/} {\bf 8} 277--284 ISSN
+  1745-2481 \urlprefix\url{https://doi.org/10.1038/nphys2252}
+
+\bibitem{rovny_31mathrmp_2018}
+Rovny J, Blum R~L and Barrett S~E 2018 {\em Phys. Rev. B\/} {\bf 97}(18) 184301
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.97.184301}
+
+\bibitem{Pan2020}
+Pan Y and Wang B 2020 {\em Phys. Rev. Res.\/} {\bf 2}(4) 043239
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevResearch.2.043239}
+
+\bibitem{Magnus1954}
+Magnus W 1954 {\em Communications on Pure and Applied Mathematics\/} {\bf 7}
+  649--673
+
+\bibitem{Dodonov1978}
+V~Dodonov V and I~Man'ko V 1978 {\em Physica A: Statistical Mechanics and its
+  Applications\/} {\bf 94} 403--412
+
+\bibitem{Mahbub2024}
+Rahaman M, Mori T and Roy A 2024 {\em Phys. Rev. B\/} {\bf 109}(10) 104311
+
+\bibitem{Johansson2013}
+R~Johansson J, D~Nation P and Nori F 2013 {\em Computer Physics
+  Communications\/} {\bf 184} 1234--1240 ISSN 0010-4655
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0010465512003955}
+
+\bibitem{harris2020array}
+Harris C~R, Millman K~J, van~der Walt S~J, Gommers R, Virtanen P, Cournapeau D,
+  Wieser E, Taylor J, Berg S, Smith N~J, Kern R, Picus M, Hoyer S, van Kerkwijk
+  M~H, Brett M, Haldane A, del R{\'{i}}o J~F, Wiebe M, Peterson P,
+  G{\'{e}}rard-Marchant P, Sheppard K, Reddy T, Weckesser W, Abbasi H, Gohlke C
+  and Oliphant T~E 2020 {\em Nature\/} {\bf 585} 357--362
+  \urlprefix\url{https://doi.org/10.1038/s41586-020-2649-2}
+
+\bibitem{Liu2023}
+Liu S, Zhang S~X, Hsieh C~Y, Zhang S and Yao H 2023 {\em Phys. Rev. Lett.\/}
+  {\bf 130}(12) 120403
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.130.120403}
+
+\bibitem{Chandra2024}
+Chandra R and Roy A 2024 {\em Physics Letters A\/} {\bf 511} 129552 ISSN
+  0375-9601
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0375960124002469}
+
+\bibitem{bayat_entanglement_2022}
+Bayat A, Bose S and Johannesson H (eds) 2022 {\em Entanglement in Spin
+  Chains\/} Quantum Science and Technology (Springer Cham) ISBN
+  978-3-031-04000-9
+
+\bibitem{mendes-santos_measuring_2020}
+Mendes-Santos T, Giudici G, Fazio R and Dalmonte M 2020 {\em New Journal of
+  Physics\/} {\bf 22} 013044
+
+\bibitem{Lu2021}
+Lu T~C and Grover T 2021 {\em PRX Quantum\/} {\bf 2}(4) 040319
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PRXQuantum.2.040319}
+
+\bibitem{Hegde2014}
+Hegde S~S, Katiyar H, Mahesh T~S and Das A 2014 {\em Phys. Rev. B\/} {\bf
+  90}(17) 174407
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevB.90.174407}
+
+\bibitem{Friedenauer2008}
+Friedenauer A, Schmitz H, Glueckert J~T, Porras D and Schaetz T 2008 {\em
+  Nature Physics\/} {\bf 4} 757--761
+
+\bibitem{Fujii_2017}
+Fujii K and Nakajima K 2017 {\em Phys. Rev. Appl.\/} {\bf 8}(2) 024030
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevApplied.8.024030}
+
+\bibitem{Martinez_2021}
+Mart\'{\i}nez-Pe\~na R, Giorgi G~L, Nokkala J, Soriano M~C and Zambrini R 2021
+  {\em Phys. Rev. Lett.\/} {\bf 127}(10) 100502
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.127.100502}
+
+\bibitem{Mujal_2021}
+Mujal P, Martínez-Peña R, Nokkala J, García-Beni J, Giorgi G~L, Soriano M~C
+  and Zambrini R 2021 {\em Advanced Quantum Technologies\/} {\bf 4} 2100027
+
+\bibitem{Akitada2022}
+Sakurai A, Estarellas M~P, Munro W~J and Nemoto K 2022 {\em Phys. Rev. Appl.\/}
+  {\bf 17}(6) 064044
+  \urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevApplied.17.064044}
+
+\bibitem{Accardi1976}
+Accardi L 1976 {\em Advances in Mathematics\/} {\bf 20} 329--366 ISSN 0001-8708
+
+\bibitem{Lindblad1976}
+Lindblad G 1976 {\em Communications in Mathematical Physics\/} {\bf 48}
+  119--130 ISSN 1432-0916
+
+\bibitem{Agarwal2012}
+Agarwal G~S 2012 {\em Quantum Optics\/} (Cambridge: Cambridge University Press)
+  ISBN 9781107006409
+
+\bibitem{Gorini1976}
+Gorini V, Kossakowski A and Sudarshan E~C~G 1976 {\em Journal of Mathematical
+  Physics\/} {\bf 17} 821--825 ISSN 0022-2488
+
+\bibitem{Bharti2022}
+Bharti K, Cervera-Lierta A, Kyaw T~H, Haug T, Alperin-Lea S, Anand A, Degroote
+  M, Heimonen H, Kottmann J~S, Menke T, Mok W~K, Sim S, Kwek L~C and
+  Aspuru-Guzik A 2022 {\em Rev. Mod. Phys.\/} {\bf 94}(1) 015004
+  \urlprefix\url{https://link.aps.org/doi/10.1103/RevModPhys.94.015004}
+
+\bibitem{haldar_statistical_2022}
+Haldar A and Das A 2022 {\em Journal of Physics: Condensed Matter\/} {\bf 34}
+  234001
+
+\bibitem{Lieb1961}
+Lieb E, Schultz T and Mattis D 1961 {\em Annals of Physics\/} {\bf 16} 407--466
+
+\bibitem{mbeng2020}
+Mbeng G~B, Russomanno A and Santoro G~E 2020 {T}he quantum {I}sing chain for
+  beginners (\textit{Preprint} \eprint{2009.09208})
+
+\bibitem{Eckardt_2015}
+Eckardt A and Anisimovas E 2015 {\em New Journal of Physics\/} {\bf 17} 093039
+
+\bibitem{Ostmeyer_2023}
+Ostmeyer J 2023 {\em Journal of Physics A: Mathematical and Theoretical\/} {\bf
+  56} 285303 \urlprefix\url{https://dx.doi.org/10.1088/1751-8121/acde7a}
+
+\bibitem{Hatano2005}
+Hatano N and Suzuki M 2005 {F}inding {E}xponential {P}roduct {F}ormulas of
+  {H}igher {O}rders {\em Quantum Annealing and Other Optimization Methods\/} ed
+  Das A and K~Chakrabarti B (Berlin, Heidelberg: Springer Berlin Heidelberg) pp
+  37--68 ISBN 978-3-540-31515-5
+  \urlprefix\url{https://doi.org/10.1007/11526216_2}
+
+\bibitem{Jozsa1994}
+Jozsa R 1994 {\em Journal of Modern Optics\/} {\bf 41} 2315--2323
+
+\end{thebibliography}
